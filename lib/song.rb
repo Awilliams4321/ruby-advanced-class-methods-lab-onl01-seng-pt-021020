@@ -63,7 +63,6 @@ class Song
   end
 
 end 
-=======
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -87,4 +86,3 @@ def save
   end
 
 end
->>>>>>> cd064a2dc102827381c4d3607918941fede3b16d
