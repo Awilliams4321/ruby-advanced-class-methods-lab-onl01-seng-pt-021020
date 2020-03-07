@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -62,3 +63,28 @@ class Song
   end
 
 end 
+=======
+class Song
+  attr_accessor :name, :artist_name
+  @@all = []
+  
+  def self.all
+    @@all 
+  end 
+
+def save
+    self.class.all << self
+  end
+
+  def self.create
+    song = self.new
+    song
+  end
+ 
+
+  def save
+    self.class.all << self
+  end
+
+end
+>>>>>>> cd064a2dc102827381c4d3607918941fede3b16d
